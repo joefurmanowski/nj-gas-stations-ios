@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pw5-rV-xZh">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gas Stations-->
+        <scene sceneID="6ie-Ng-CHn">
+            <objects>
+                <tableViewController id="m48-Rn-4uZ" customClass="GasStationsTableViewController" customModule="NJGasStations" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Snk-Ps-lNC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="gasStationCell" rowHeight="75" id="oGA-dO-p6E" customClass="GasStationTableViewCell" customModule="NJGasStations" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="390" height="75"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oGA-dO-p6E" id="TNc-kr-gDF">
+                                    <rect key="frame" x="0.0" y="0.0" width="359.66666666666669" height="75"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ZUA-d4-TGk">
+                                            <rect key="frame" x="180" y="20.333333333333332" width="160.33333333333337" height="34.333333333333343"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gas Station Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nol-I6-MeH">
+                                                    <rect key="frame" x="0.0" y="0.0" width="145.33333333333334" height="20.333333333333332"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gas Station City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Pf-sN-33c">
+                                                    <rect key="frame" x="0.0" y="20.333333333333332" width="91.333333333333329" height="13.999999999999996"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="VXz-lw-7EA">
+                                            <rect key="frame" x="20" y="2.6666666666666643" width="152.33333333333334" height="70"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bWs-Jk-ELl">
+                                                    <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="70" id="XGw-7p-Qua"/>
+                                                        <constraint firstAttribute="width" constant="70" id="tQU-yY-8oD"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YhV-kV-jjE">
+                                                    <rect key="frame" x="78" y="22.333333333333336" width="74.333333333333314" height="25.333333333333336"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="VXz-lw-7EA" firstAttribute="centerY" secondItem="TNc-kr-gDF" secondAttribute="centerY" id="Ny7-1h-goq"/>
+                                        <constraint firstItem="ZUA-d4-TGk" firstAttribute="top" secondItem="TNc-kr-gDF" secondAttribute="top" constant="20.333333333333332" id="daJ-R6-bKw"/>
+                                        <constraint firstItem="ZUA-d4-TGk" firstAttribute="centerY" secondItem="TNc-kr-gDF" secondAttribute="centerY" id="iz8-Zi-IL1"/>
+                                        <constraint firstAttribute="bottom" secondItem="ZUA-d4-TGk" secondAttribute="bottom" constant="20.333333333333329" id="nw0-Db-M0H"/>
+                                        <constraint firstAttribute="trailing" secondItem="VXz-lw-7EA" secondAttribute="trailing" constant="187.33333333333334" id="oAV-f3-EBe"/>
+                                        <constraint firstAttribute="trailing" secondItem="ZUA-d4-TGk" secondAttribute="trailing" constant="19.333333333333314" id="srq-OH-ojc"/>
+                                        <constraint firstItem="VXz-lw-7EA" firstAttribute="leading" secondItem="TNc-kr-gDF" secondAttribute="leading" constant="20" symbolic="YES" id="wMf-tA-mo6"/>
+                                        <constraint firstItem="ZUA-d4-TGk" firstAttribute="leading" secondItem="TNc-kr-gDF" secondAttribute="leading" constant="180" id="z5O-hQ-UNN"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="city" destination="1Pf-sN-33c" id="i5Q-Yt-X39"/>
+                                    <outlet property="logo" destination="bWs-Jk-ELl" id="l8J-Lj-rek"/>
+                                    <outlet property="name" destination="Nol-I6-MeH" id="fgw-ww-j26"/>
+                                    <outlet property="price" destination="YhV-kV-jjE" id="FgM-qC-HuK"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="m48-Rn-4uZ" id="Phu-uk-tk6"/>
+                            <outlet property="delegate" destination="m48-Rn-4uZ" id="yGw-UH-Og1"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Gas Stations" id="ZN2-qM-YY4"/>
+                    <connections>
+                        <segue destination="KLN-4g-EM4" kind="show" identifier="detailsSegue" id="dw7-1J-0Ob"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YSM-Tx-0Xm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1594" y="18"/>
+        </scene>
+        <!--Gas Station Detail View Controller-->
+        <scene sceneID="Tz4-i6-c9F">
+            <objects>
+                <viewController id="KLN-4g-EM4" customClass="GasStationDetailViewController" customModule="NJGasStations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P71-G1-zuE">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="zBm-Tx-oj3">
+                                <rect key="frame" x="30" y="185" width="330" height="106"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSH-80-Z0A">
+                                        <rect key="frame" x="108" y="0.0" width="114" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="999" translatesAutoresizingMaskIntoConstraints="NO" id="4lL-PZ-4fx">
+                                        <rect key="frame" x="-2" y="76" width="334" height="31"/>
+                                        <connections>
+                                            <action selector="sliderValueSet:" destination="KLN-4g-EM4" eventType="valueChanged" id="rmj-ry-q0E"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4lL-PZ-4fx" firstAttribute="leading" secondItem="zBm-Tx-oj3" secondAttribute="leading" id="0gn-xo-9bu"/>
+                                    <constraint firstAttribute="trailing" secondItem="4lL-PZ-4fx" secondAttribute="trailing" id="LXS-qB-FIV"/>
+                                    <constraint firstItem="4lL-PZ-4fx" firstAttribute="centerX" secondItem="zBm-Tx-oj3" secondAttribute="centerX" id="hDR-tG-jDc"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="240" translatesAutoresizingMaskIntoConstraints="NO" id="WEy-VA-bRJ">
+                                <rect key="frame" x="10" y="299" width="370" height="20.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47l-pP-8zP">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$9.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymL-cP-6Db">
+                                        <rect key="frame" x="325" y="0.0" width="45" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWN-S3-S2x">
+                                <rect key="frame" x="155" y="327" width="80" height="34.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Update"/>
+                                <connections>
+                                    <action selector="updateGasStationDetails:" destination="KLN-4g-EM4" eventType="touchUpInside" id="VMx-Y8-kf0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="trL-Tz-Y5d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WEy-VA-bRJ" firstAttribute="top" secondItem="zBm-Tx-oj3" secondAttribute="bottom" constant="8" symbolic="YES" id="02G-ZU-ZDD"/>
+                            <constraint firstItem="trL-Tz-Y5d" firstAttribute="trailing" secondItem="WEy-VA-bRJ" secondAttribute="trailing" constant="10" id="B2A-Oz-zwc"/>
+                            <constraint firstItem="trL-Tz-Y5d" firstAttribute="trailing" secondItem="zBm-Tx-oj3" secondAttribute="trailing" constant="30" id="D1y-yL-ddf"/>
+                            <constraint firstItem="WEy-VA-bRJ" firstAttribute="centerX" secondItem="trL-Tz-Y5d" secondAttribute="centerX" id="Irt-AY-De2"/>
+                            <constraint firstItem="zBm-Tx-oj3" firstAttribute="leading" secondItem="trL-Tz-Y5d" secondAttribute="leading" constant="30" id="QEs-5b-e1e"/>
+                            <constraint firstItem="cWN-S3-S2x" firstAttribute="centerX" secondItem="trL-Tz-Y5d" secondAttribute="centerX" id="SKF-d8-e0H"/>
+                            <constraint firstItem="zBm-Tx-oj3" firstAttribute="centerX" secondItem="trL-Tz-Y5d" secondAttribute="centerX" id="Vlt-jx-P4b"/>
+                            <constraint firstItem="WEy-VA-bRJ" firstAttribute="leading" secondItem="trL-Tz-Y5d" secondAttribute="leading" constant="10" id="Zx6-eS-zjB"/>
+                            <constraint firstItem="cWN-S3-S2x" firstAttribute="top" secondItem="WEy-VA-bRJ" secondAttribute="bottom" constant="7.6666666666666856" id="bK9-Yv-xjm"/>
+                            <constraint firstItem="zBm-Tx-oj3" firstAttribute="top" secondItem="trL-Tz-Y5d" secondAttribute="top" constant="94" id="hiW-SI-IDj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YCF-W8-Xlr"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="slider" destination="4lL-PZ-4fx" id="9eB-j1-ijK"/>
+                        <outlet property="sliderValue" destination="aSH-80-Z0A" id="roH-86-JIL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZDg-I1-mTa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2389.2307692307691" y="17.772511848341232"/>
+        </scene>
+        <!--List-->
+        <scene sceneID="UOc-16-vbH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="19H-ye-5on" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="List" image="list.bullet" catalog="system" id="hTU-2o-anQ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jLH-Ee-cEN">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="m48-Rn-4uZ" kind="relationship" relationship="rootViewController" id="J3o-gE-8yh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="03s-9r-g41" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="797" y="18"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Axz-7h-0Sj">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Pw5-rV-xZh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o35-7N-Fwu">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="19H-ye-5on" kind="relationship" relationship="viewControllers" id="GMK-eY-jen"/>
+                        <segue destination="Ylq-g2-eag" kind="relationship" relationship="viewControllers" id="Bfc-nc-R4b"/>
+                        <segue destination="gUr-if-MO4" kind="relationship" relationship="viewControllers" id="dhg-mK-Xb7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mhn-60-hQs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-38" y="18"/>
+        </scene>
+        <!--Photos-->
+        <scene sceneID="KdQ-Ul-QTs">
+            <objects>
+                <collectionViewController id="Dob-Q1-Lrx" customClass="GasStationPhotosCollectionViewController" customModule="NJGasStations" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="hIt-r1-fzX">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cc2-yU-pyP">
+                            <size key="itemSize" width="150" height="150"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="photoCell" id="IIp-WC-1NB" customClass="GasStationPhotoCollectionViewCell" customModule="NJGasStations" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="EKZ-YR-Jrq">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x70-zB-Pp5">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </collectionViewCellContentView>
+                                <connections>
+                                    <outlet property="photo" destination="x70-zB-Pp5" id="qG4-Jz-RDg"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="Dob-Q1-Lrx" id="ebg-EQ-XkZ"/>
+                            <outlet property="delegate" destination="Dob-Q1-Lrx" id="HoG-7p-XOf"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Photos" id="yLt-QI-lpJ"/>
+                    <connections>
+                        <segue destination="gxU-Sb-ZXH" kind="show" identifier="photoDetailSegue" id="wYE-9p-B5o"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RYC-79-9D6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796.92307692307691" y="770.61611374407585"/>
+        </scene>
+        <!--Photo-->
+        <scene sceneID="7FQ-D4-Tf5">
+            <objects>
+                <viewController id="gxU-Sb-ZXH" customClass="GasStationPhotoDetailViewController" customModule="NJGasStations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YJ5-dT-PGW">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7b4-mQ-05T">
+                                <rect key="frame" x="0.0" y="91" width="390" height="621"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4d3-La-TxP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4d3-La-TxP" firstAttribute="bottom" secondItem="7b4-mQ-05T" secondAttribute="bottom" id="2q5-ro-kEr"/>
+                            <constraint firstItem="4d3-La-TxP" firstAttribute="trailing" secondItem="7b4-mQ-05T" secondAttribute="trailing" id="GFw-6S-4sY"/>
+                            <constraint firstItem="7b4-mQ-05T" firstAttribute="leading" secondItem="4d3-La-TxP" secondAttribute="leading" id="Tf8-jg-YCa"/>
+                            <constraint firstItem="7b4-mQ-05T" firstAttribute="top" secondItem="4d3-La-TxP" secondAttribute="top" id="vJs-2c-ajK"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Photo" id="KAO-Sk-Mv0"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="scrollView" destination="7b4-mQ-05T" id="sL8-dG-XSW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1lE-MP-q7C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1593.8461538461538" y="770.61611374407585"/>
+        </scene>
+        <!--Photos-->
+        <scene sceneID="mAp-07-WOr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ylq-g2-eag" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Photos" image="photo" catalog="system" id="JSV-mk-05L"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HNT-2K-Eh0">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Dob-Q1-Lrx" kind="relationship" relationship="rootViewController" id="uIC-Xe-seY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ufb-hC-JQV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-38" y="772"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="ZH3-55-g4T">
+            <objects>
+                <viewController id="ICH-bk-87s" customClass="MapViewController" customModule="NJGasStations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hXQ-FT-diK">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WYP-Qa-rRn">
+                                <rect key="frame" x="0.0" y="91" width="390" height="670"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XaE-Mm-izb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WYP-Qa-rRn" firstAttribute="top" secondItem="XaE-Mm-izb" secondAttribute="top" id="Cxp-bs-GmA"/>
+                            <constraint firstItem="XaE-Mm-izb" firstAttribute="trailing" secondItem="WYP-Qa-rRn" secondAttribute="trailing" id="Dwx-Vg-Jiw"/>
+                            <constraint firstItem="XaE-Mm-izb" firstAttribute="bottom" secondItem="WYP-Qa-rRn" secondAttribute="bottom" id="Mgx-e0-foc"/>
+                            <constraint firstItem="WYP-Qa-rRn" firstAttribute="leading" secondItem="XaE-Mm-izb" secondAttribute="leading" id="oo0-N6-5fm"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Map" id="JE3-tU-5RQ"/>
+                    <connections>
+                        <outlet property="myMapView" destination="WYP-Qa-rRn" id="SxE-CM-hkL"/>
+                        <segue destination="KLN-4g-EM4" kind="show" identifier="mapToGasStationDetailsSegue" id="vcW-3A-52h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IFs-ZV-FW3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1594" y="-712"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="mnL-aS-sIE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gUr-if-MO4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="mappin.and.ellipse" catalog="system" id="REh-J9-nBr"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FRA-Mp-OeP">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ICH-bk-87s" kind="relationship" relationship="rootViewController" id="vfn-KW-nwc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="awF-dE-5Ug" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="797" y="-712"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="vcW-3A-52h"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="list.bullet" catalog="system" width="128" height="87"/>
+        <image name="mappin.and.ellipse" catalog="system" width="117" height="128"/>
+        <image name="photo" catalog="system" width="128" height="93"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

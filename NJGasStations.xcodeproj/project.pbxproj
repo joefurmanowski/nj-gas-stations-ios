@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E03C94228FDB2CB006C5973 /* GasStationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E03C94128FDB2CB006C5973 /* GasStationAnnotation.swift */; };
+		1E10F85A28EFCB5600F130E3 /* GasStationPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10F85928EFCB5600F130E3 /* GasStationPhotosModel.swift */; };
+		1E10F85C28EFCCDE00F130E3 /* GasStationPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10F85B28EFCCDE00F130E3 /* GasStationPhotoCollectionViewCell.swift */; };
+		1E10F85E28EFCF9C00F130E3 /* GasStationPhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10F85D28EFCF9C00F130E3 /* GasStationPhotosCollectionViewController.swift */; };
+		1E10F86028EFDDF000F130E3 /* GasStationPhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10F85F28EFDDF000F130E3 /* GasStationPhotoDetailViewController.swift */; };
+		1E4E32CC28EF6381008CA5F6 /* logos in Resources */ = {isa = PBXBuildFile; fileRef = 1E4E32CA28EF6380008CA5F6 /* logos */; };
+		1E6E544D29038093007C2068 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E544C29038093007C2068 /* MapViewController.swift */; };
+		1EA08B3828EF189600587971 /* NJGasStations.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EA08B3728EF189600587971 /* NJGasStations.json */; };
+		1EB1471928EF7130009731D9 /* GasStationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB1471828EF7130009731D9 /* GasStationDetailViewController.swift */; };
+		1EB2B25F28F8FC3C00C54832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EB2B25E28F8FB3000C54832 /* Assets.xcassets */; };
+		1EC230F728EE655E002E1615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC230F628EE655E002E1615 /* AppDelegate.swift */; };
+		1EC230F928EE655E002E1615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC230F828EE655E002E1615 /* SceneDelegate.swift */; };
+		1EC230FE28EE655E002E1615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC230FC28EE655E002E1615 /* Main.storyboard */; };
+		1EC2310328EE655F002E1615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EC2310128EE655F002E1615 /* LaunchScreen.storyboard */; };
+		1EC2310D28EE661F002E1615 /* GasStationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2310C28EE661F002E1615 /* GasStationsTableViewController.swift */; };
+		1EC2310F28EE68C7002E1615 /* GasStationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2310E28EE68C7002E1615 /* GasStationTableViewCell.swift */; };
+		1EC2311128EE7020002E1615 /* NJGasStationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC2311028EE7020002E1615 /* NJGasStationModel.swift */; };
+		1ED4C41528EFE1CC00CC847A /* photos in Resources */ = {isa = PBXBuildFile; fileRef = 1ED4C41428EFE1CC00CC847A /* photos */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E03C94128FDB2CB006C5973 /* GasStationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationAnnotation.swift; sourceTree = "<group>"; };
+		1E10F85928EFCB5600F130E3 /* GasStationPhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationPhotosModel.swift; sourceTree = "<group>"; };
+		1E10F85B28EFCCDE00F130E3 /* GasStationPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E10F85D28EFCF9C00F130E3 /* GasStationPhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationPhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		1E10F85F28EFDDF000F130E3 /* GasStationPhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationPhotoDetailViewController.swift; sourceTree = "<group>"; };
+		1E4E32CA28EF6380008CA5F6 /* logos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = logos; sourceTree = "<group>"; };
+		1E6E544C29038093007C2068 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1EA08B3728EF189600587971 /* NJGasStations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NJGasStations.json; sourceTree = "<group>"; };
+		1EB1471828EF7130009731D9 /* GasStationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationDetailViewController.swift; sourceTree = "<group>"; };
+		1EB2B25E28F8FB3000C54832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EC230F328EE655E002E1615 /* NJGasStations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJGasStations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC230F628EE655E002E1615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EC230F828EE655E002E1615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EC230FD28EE655E002E1615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EC2310228EE655F002E1615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EC2310428EE655F002E1615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EC2310C28EE661F002E1615 /* GasStationsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationsTableViewController.swift; sourceTree = "<group>"; };
+		1EC2310E28EE68C7002E1615 /* GasStationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStationTableViewCell.swift; sourceTree = "<group>"; };
+		1EC2311028EE7020002E1615 /* NJGasStationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJGasStationModel.swift; sourceTree = "<group>"; };
+		1ED4C41428EFE1CC00CC847A /* photos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = photos; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EC230F028EE655E002E1615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EC230EA28EE655E002E1615 = {
+			isa = PBXGroup;
+			children = (
+				1EC230F528EE655E002E1615 /* NJGasStations */,
+				1EC230F428EE655E002E1615 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EC230F428EE655E002E1615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EC230F328EE655E002E1615 /* NJGasStations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EC230F528EE655E002E1615 /* NJGasStations */ = {
+			isa = PBXGroup;
+			children = (
+				1EC230F628EE655E002E1615 /* AppDelegate.swift */,
+				1EC230F828EE655E002E1615 /* SceneDelegate.swift */,
+				1EC230FC28EE655E002E1615 /* Main.storyboard */,
+				1EC2311028EE7020002E1615 /* NJGasStationModel.swift */,
+				1E10F85928EFCB5600F130E3 /* GasStationPhotosModel.swift */,
+				1E03C94128FDB2CB006C5973 /* GasStationAnnotation.swift */,
+				1E6E544C29038093007C2068 /* MapViewController.swift */,
+				1EC2310C28EE661F002E1615 /* GasStationsTableViewController.swift */,
+				1EC2310E28EE68C7002E1615 /* GasStationTableViewCell.swift */,
+				1EB1471828EF7130009731D9 /* GasStationDetailViewController.swift */,
+				1E10F85D28EFCF9C00F130E3 /* GasStationPhotosCollectionViewController.swift */,
+				1E10F85B28EFCCDE00F130E3 /* GasStationPhotoCollectionViewCell.swift */,
+				1E10F85F28EFDDF000F130E3 /* GasStationPhotoDetailViewController.swift */,
+				1EA08B3728EF189600587971 /* NJGasStations.json */,
+				1E4E32CA28EF6380008CA5F6 /* logos */,
+				1ED4C41428EFE1CC00CC847A /* photos */,
+				1EB2B25E28F8FB3000C54832 /* Assets.xcassets */,
+				1EC2310128EE655F002E1615 /* LaunchScreen.storyboard */,
+				1EC2310428EE655F002E1615 /* Info.plist */,
+			);
+			path = NJGasStations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EC230F228EE655E002E1615 /* NJGasStations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC2310728EE655F002E1615 /* Build configuration list for PBXNativeTarget "NJGasStations" */;
+			buildPhases = (
+				1EC230EF28EE655E002E1615 /* Sources */,
+				1EC230F028EE655E002E1615 /* Frameworks */,
+				1EC230F128EE655E002E1615 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJGasStations;
+			productName = NJGasStationsApp;
+			productReference = 1EC230F328EE655E002E1615 /* NJGasStations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EC230EB28EE655E002E1615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1EC230F228EE655E002E1615 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1EC230EE28EE655E002E1615 /* Build configuration list for PBXProject "NJGasStations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EC230EA28EE655E002E1615;
+			productRefGroup = 1EC230F428EE655E002E1615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EC230F228EE655E002E1615 /* NJGasStations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EC230F128EE655E002E1615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4E32CC28EF6381008CA5F6 /* logos in Resources */,
+				1EC2310328EE655F002E1615 /* LaunchScreen.storyboard in Resources */,
+				1EA08B3828EF189600587971 /* NJGasStations.json in Resources */,
+				1EC230FE28EE655E002E1615 /* Main.storyboard in Resources */,
+				1EB2B25F28F8FC3C00C54832 /* Assets.xcassets in Resources */,
+				1ED4C41528EFE1CC00CC847A /* photos in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EC230EF28EE655E002E1615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E10F85E28EFCF9C00F130E3 /* GasStationPhotosCollectionViewController.swift in Sources */,
+				1E10F85A28EFCB5600F130E3 /* GasStationPhotosModel.swift in Sources */,
+				1E10F85C28EFCCDE00F130E3 /* GasStationPhotoCollectionViewCell.swift in Sources */,
+				1EC2310F28EE68C7002E1615 /* GasStationTableViewCell.swift in Sources */,
+				1EC2311128EE7020002E1615 /* NJGasStationModel.swift in Sources */,
+				1E10F86028EFDDF000F130E3 /* GasStationPhotoDetailViewController.swift in Sources */,
+				1EB1471928EF7130009731D9 /* GasStationDetailViewController.swift in Sources */,
+				1E6E544D29038093007C2068 /* MapViewController.swift in Sources */,
+				1EC230F728EE655E002E1615 /* AppDelegate.swift in Sources */,
+				1E03C94228FDB2CB006C5973 /* GasStationAnnotation.swift in Sources */,
+				1EC2310D28EE661F002E1615 /* GasStationsTableViewController.swift in Sources */,
+				1EC230F928EE655E002E1615 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EC230FC28EE655E002E1615 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EC230FD28EE655E002E1615 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EC2310128EE655F002E1615 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EC2310228EE655F002E1615 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EC2310528EE655F002E1615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EC2310628EE655F002E1615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EC2310828EE655F002E1615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y44VNPF3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NJGasStations/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.csse337.s1307273.NJGasStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EC2310928EE655F002E1615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y44VNPF3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NJGasStations/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.monmouth.csse337.s1307273.NJGasStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC230EE28EE655E002E1615 /* Build configuration list for PBXProject "NJGasStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC2310528EE655F002E1615 /* Debug */,
+				1EC2310628EE655F002E1615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EC2310728EE655F002E1615 /* Build configuration list for PBXNativeTarget "NJGasStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EC2310828EE655F002E1615 /* Debug */,
+				1EC2310928EE655F002E1615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EC230EB28EE655E002E1615 /* Project object */;
+}
